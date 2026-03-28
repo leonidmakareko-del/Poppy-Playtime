@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+body{
+  background-color: #400100 !important;
+}
+nav{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  z-index: 10;
+}
+nav ul{
+  position: relative;
+  display: block;
+  height: auto;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+nav > ul::after{
+  content: '';
+  display: block;
+  width: 100%;
+  height: auto;
+  clear: both;
+}
+nav ul li{
+  position: relative;
+  display: block;
+  height: auto;
+  width: auto;
+  float: left;
+}
+nav ul li a{
+  text-decoration: ;
+  padding: 9px 25px 0 25px;
+  color: black;
+}
+nav ul li ul{
+  position: absolute;
+  top: 36px;
+  left: 0;
+  display: none;
+}
+nav ul li:hover ul{
+  display: block;
+}
+nav ul li ul li{
+  margin: 5px;
+}
+h1{
+  color: black !important;
+}
+h2{
+  color: black !important;
+}
+p{
+  color: black !important;
+}
+
+*{
+  font-family: "Rubik Glitch", system-ui;
+  margin: 5px;
+}
+h3{
+  color: black !important;
+}
+.cols{
+  display: flex;
+}
+.col{
+  flex: 50%;
+  margin: 10px;
+}
